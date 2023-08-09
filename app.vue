@@ -1,17 +1,24 @@
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
 
 <script setup lang="ts">
 useHead({
-  title: 'NuxtDemo',
+  title: 'ArogFly',
   meta: [
-    { name: 'description', content: 'some description' }
+    { name: 'description', content: 'argofly, ' }
   ],
   script: [
-    { innerHTML: 'console.log(\'Hello world\')' }
+    { innerHTML: 'console.log(\'ArogFly!\')' }
   ]
-})
+});
 </script>
+
+<style>
+*{
+  padding: 0;
+  margin: 0;
+}
+</style>

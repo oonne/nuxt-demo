@@ -10,7 +10,9 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^8.0.0-rc.2",
     "@types/node": "^18.17.1",
+    "eslint": "^8.46.0",
     "nuxt": "^3.6.5"
   }
 }

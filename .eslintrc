@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": ["@nuxtjs/eslint-config-typescript"],
+  "rules": {
+    "array-bracket-spacing": "off",
+    "eol-last": "off",
+    "comma-dangle": "off"
+  }
+}

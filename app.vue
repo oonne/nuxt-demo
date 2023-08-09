@@ -1,6 +1,6 @@
 <template>
   <div>
-    demo
+    <NuxtPage />
   </div>
 </template>
 
@@ -10,6 +10,8 @@ useHead({
   meta: [
     { name: 'description', content: 'some description' }
   ],
-  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+  script: [
+    { innerHTML: 'console.log(\'Hello world\')' }
+  ]
 })
 </script>

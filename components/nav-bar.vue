@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img src="~/assets/img/logo.png">
     <NuxtLink v-for="item of navList" :key="item.name" :to="item.path">
       {{ item.name }}
     </NuxtLink>

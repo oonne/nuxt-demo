@@ -7,5 +7,9 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module'
   ],
 
+  i18n: {
+    vueI18n: './locales/index.ts',
+  },
+
   compatibilityDate: '2024-09-16',
 });

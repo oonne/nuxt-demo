@@ -8,7 +8,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "clear": "rimraf dist .output"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -18,7 +19,8 @@
     "@types/node": "^18.19.50",
     "eslint": "^8.57.0",
     "nuxt": "^3.13.2",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1"
   },
   "engines": {
     "node": ">=20.4.0",

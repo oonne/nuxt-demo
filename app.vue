@@ -8,7 +8,9 @@
 useHead({
   title: 'ArogFly',
   meta: [
-    { name: 'description', content: 'argofly' }
+    { name: 'description', content: 'argofly' },
+    { name: 'keywords', content: 'salechaty,argofly' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
   ],
   script: [
     { innerHTML: 'console.log(\'ArogFly!\')' }

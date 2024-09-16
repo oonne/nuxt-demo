@@ -8,7 +8,7 @@
 useHead({
   title: 'ArogFly',
   meta: [
-    { name: 'description', content: 'argofly, ' }
+    { name: 'description', content: 'argofly' }
   ],
   script: [
     { innerHTML: 'console.log(\'ArogFly!\')' }
@@ -17,8 +17,4 @@ useHead({
 </script>
 
 <style>
-*{
-  padding: 0;
-  margin: 0;
-}
 </style>

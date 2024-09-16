@@ -8,7 +8,6 @@
       <button @click="setLocale('en_US')">
         English
       </button>
-      <p>{{ $t('hello') }}</p>
       {{ locale }}
     </div>
   </div>

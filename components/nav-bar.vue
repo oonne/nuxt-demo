@@ -1,5 +1,13 @@
 <template>
   <div>
-    导航栏
+    <NuxtLink to="/">
+      Home
+    </NuxtLink>
+    <NuxtLink to="/intro">
+      Intro
+    </NuxtLink>
+    <NuxtLink to="/about">
+      About page
+    </NuxtLink>
   </div>
 </template>

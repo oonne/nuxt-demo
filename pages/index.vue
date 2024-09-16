@@ -16,6 +16,4 @@
 
 <script setup lang="ts">
 const { locale, setLocale } = useI18n();
-
-console.log(locale.value);
 </script>

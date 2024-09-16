@@ -1,6 +1,5 @@
 <template>
   <div>
-    <nav-bar />
-    <slot />
+    导航栏
   </div>
 </template>

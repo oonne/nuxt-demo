@@ -1,6 +1,8 @@
 {
   "name": "nuxt-demo",
   "private": true,
+  "author": "JAY",
+  "license": "ISC",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -17,5 +19,9 @@
     "eslint": "^8.46.0",
     "nuxt": "^3.6.5",
     "prettier": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=20.4.0",
+    "pnpm": ">=8.6.7"
   }
 }

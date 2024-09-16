@@ -12,25 +12,25 @@ importers:
         specifier: latest
         version: 1.4.2(rollup@4.21.3)(vite@5.4.5(@types/node@18.19.50)(terser@5.32.0))(vue@3.5.5(typescript@5.6.2))(webpack-sources@3.2.3)
       '@nuxtjs/eslint-config-typescript':
-        specifier: ^12.0.0
+        specifier: ^12.1.0
         version: 12.1.0(eslint@8.57.0)(typescript@5.6.2)
       '@nuxtjs/eslint-module':
         specifier: ^4.1.0
         version: 4.1.0(eslint@8.57.0)(magicast@0.3.5)(rollup@4.21.3)(vite@5.4.5(@types/node@18.19.50)(terser@5.32.0))(webpack-sources@3.2.3)(webpack@5.94.0)
       '@nuxtjs/i18n':
-        specifier: ^8.0.0-rc.2
+        specifier: ^8.5.3
         version: 8.5.3(magicast@0.3.5)(rollup@4.21.3)(vue@3.5.5(typescript@5.6.2))(webpack-sources@3.2.3)
       '@types/node':
-        specifier: ^18.17.1
+        specifier: ^18.19.50
         version: 18.19.50
       eslint:
-        specifier: ^8.46.0
+        specifier: ^8.57.0
         version: 8.57.0
       nuxt:
-        specifier: ^3.6.5
+        specifier: ^3.13.2
         version: 3.13.2(@parcel/watcher@2.4.1)(@types/node@18.19.50)(eslint@8.57.0)(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.21.3)(terser@5.32.0)(typescript@5.6.2)(vite@5.4.5(@types/node@18.19.50)(terser@5.32.0))(webpack-sources@3.2.3)
       prettier:
-        specifier: ^3.0.1
+        specifier: ^3.3.3
         version: 3.3.3
 
 packages:

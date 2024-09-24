@@ -14,7 +14,10 @@ useHead({
   ],
   script: [
     { innerHTML: 'console.log(\'ArogFly!\')' }
-  ]
+  ],
+  link: [
+    { rel: 'icon', href: '/favicon.ico' },
+  ],
 });
 
 useSeoMeta({
